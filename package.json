@@ -1,13 +1,12 @@
 {
-  "name": "vercel-kml-api",
+  "name": "vercel-klm-api",
   "version": "1.0.0",
-  "description": "A serverless function that generates dynamic KML",
-  "main": "index.js",
-  "scripts": {
-    "dev": "vercel dev"
+  "main": "api/kml.js",
+  "dependencies": {
+    "cors": "^2.8.5"
   },
-  "dependencies": {},
   "devDependencies": {},
-  "author": "",
-  "license": "ISC"
+  "scripts": {
+    "start": "vercel dev"
+  }
 }
